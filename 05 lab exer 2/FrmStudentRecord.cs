@@ -51,9 +51,7 @@ namespace _05_lab_exer_2
 
         private void btnUpload_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Success!", "Upload",
-            MessageBoxButtons.OK, MessageBoxIcon.Information);
-
+            MessageBox.Show("Successfully Uploaded!");
             lvRecord.Items.Clear();
         }
     }
