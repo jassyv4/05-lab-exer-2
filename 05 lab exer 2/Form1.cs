@@ -44,5 +44,12 @@ namespace _05_lab_exer_2
                 }
             }
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            FrmStudentRecord studentRecord = new FrmStudentRecord();
+            studentRecord.Show();
+            this.Hide();
+        }
     }
 }
