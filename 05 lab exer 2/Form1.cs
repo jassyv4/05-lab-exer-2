@@ -11,11 +11,11 @@ using System.Windows.Forms;
 
 namespace _05_lab_exer_2
 {
-    public partial class FrmOpenTextFile : Form
+    public partial class FrmOpenFile : Form
     {
         string path;
 
-        public FrmOpenTextFile()
+        public FrmOpenFile()
         {
             InitializeComponent();
         }

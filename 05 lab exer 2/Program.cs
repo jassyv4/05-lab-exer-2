@@ -16,7 +16,7 @@ namespace _05_lab_exer_2
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FrmOpenTextFile());
+            Application.Run(new FrmOpenFile());
         }
     }
 }
